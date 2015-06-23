@@ -237,7 +237,8 @@ pre {
       background: rgba(0,0,0,0.5);
       padding: 20px;
       margin-top: 40px;
-      @include span(4,8);
+      // @include span(4,8);
+      @include span(4);
     }
   }
 }
