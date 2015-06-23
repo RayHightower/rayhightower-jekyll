@@ -14,15 +14,15 @@
     @include container;
     padding: 20px 0 0;
     #blog-nav {
-      @include span(2);
+      @include span-columns(2);
       @include omega;
     }
     #blog-content {
-      @include span(4);
+      @include span-columns(4);
     }
     #blog-single {
       @include prefix(1);
-      @include span(4);
+      @include span-columns(4);
     }
     article {
       max-width: 600px;
