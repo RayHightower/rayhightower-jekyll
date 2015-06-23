@@ -203,7 +203,7 @@ pre {
     z-index: 1;
   }
   h1 {
-    @include display-font;
+    @include header-font;
     font-size: 45px;
     line-height: 0.9;
     color: #FFF;
