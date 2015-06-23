@@ -1,6 +1,6 @@
 // Framework imports
 @import "compass/css3";
-@import "susy";
+@import "susyone";
 
 // Variables and mixin
 @import "site/vars";
@@ -204,7 +204,7 @@ pre {
   }
   h1 {
     @include display-font;
-    font-size: 50px;
+    font-size: 110px;
     line-height: 0.9;
     color: #FFF;
   }
@@ -237,8 +237,7 @@ pre {
       background: rgba(0,0,0,0.5);
       padding: 20px;
       margin-top: 40px;
-      // @include span(4,8);
-      @include span(4 of 8 fluid);
+      @include span-columns(4,8);
     }
   }
 }
@@ -272,7 +271,7 @@ pre {
   }
   @media all and (min-width: 500px) {
     .col {
-      @include span(3);
+      @include span-columns(3);
     }
     .col:last-child {
       @include omega;
@@ -318,7 +317,7 @@ pre {
   .page-type-subnav {
     @include container;
     #subnav {
-      @include span(1);
+      @include span-columns(1);
       margin: 32px 0 0;
       h4 {
         margin-top: 0;
@@ -330,7 +329,7 @@ pre {
       }
     }
     #content {
-      @include span(5);
+      @include span-columns(5);
       @include omega;
       article {
         max-width: 740px;
