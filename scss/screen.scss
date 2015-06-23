@@ -237,7 +237,7 @@ pre {
       background: rgba(0,0,0,0.5);
       padding: 20px;
       margin-top: 40px;
-      @include span-columns(4,8);
+      @include span(4,8);
     }
   }
 }
@@ -271,7 +271,7 @@ pre {
   }
   @media all and (min-width: 500px) {
     .col {
-      @include span-columns(3);
+      @include span(3);
     }
     .col:last-child {
       @include omega;
@@ -317,7 +317,7 @@ pre {
   .page-type-subnav {
     @include container;
     #subnav {
-      @include span-columns(1);
+      @include span(1);
       margin: 32px 0 0;
       h4 {
         margin-top: 0;
@@ -329,7 +329,7 @@ pre {
       }
     }
     #content {
-      @include span-columns(5);
+      @include span(5);
       @include omega;
       article {
         max-width: 740px;

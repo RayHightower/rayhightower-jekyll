@@ -1,41 +1,28 @@
 /*
 Error: Undefined mixin 'span-columns'.
-        on line 17 of /Users/rth/Code/Ruby/apps/cactus-jekyll-theme/scss/site/_blog.scss, in `span-columns'
-        from line 17 of /Users/rth/Code/Ruby/apps/cactus-jekyll-theme/scss/site/_blog.scss
-        from line 22 of /Users/rth/Code/Ruby/apps/cactus-jekyll-theme/scss/screen.scss
+        on line 240 of /Users/rth/Code/Ruby/apps/cactus-jekyll-theme/scss/screen.scss, in `span-columns'
+        from line 240 of /Users/rth/Code/Ruby/apps/cactus-jekyll-theme/scss/screen.scss
 
-12: // Components
-13: @import "components/table";
-14: @import "components/bordered-list";
-15: @import "components/nav";
-16: @import "components/pygments"; // code highlighting styles
-17: 
-18: // Regular imports
-19: @import "site/fonts";
-20: @import "site/grid";
-21: @import "site/image_alignment";
-22: @import "site/blog";
+235:     .copy {
+236:       background: #000;
+237:       background: rgba(0,0,0,0.5);
+238:       padding: 20px;
+239:       margin-top: 40px;
+240:       @include span-columns(4,8);
+241:     }
+242:   }
+243: }
+244: 
+245: #footer {
 
 Backtrace:
-/Users/rth/Code/Ruby/apps/cactus-jekyll-theme/scss/site/_blog.scss:17:in `span-columns'
-/Users/rth/Code/Ruby/apps/cactus-jekyll-theme/scss/site/_blog.scss:17
-/Users/rth/Code/Ruby/apps/cactus-jekyll-theme/scss/screen.scss:22
+/Users/rth/Code/Ruby/apps/cactus-jekyll-theme/scss/screen.scss:240:in `span-columns'
+/Users/rth/Code/Ruby/apps/cactus-jekyll-theme/scss/screen.scss:240
 /Users/rth/.rvm/gems/ruby-2.2.2@global/gems/sass-3.4.12/lib/sass/tree/visitors/perform.rb:348:in `block in visit_mixin'
 /Users/rth/.rvm/gems/ruby-2.2.2@global/gems/sass-3.4.12/lib/sass/stack.rb:98:in `block in with_mixin'
 /Users/rth/.rvm/gems/ruby-2.2.2@global/gems/sass-3.4.12/lib/sass/stack.rb:115:in `with_frame'
 /Users/rth/.rvm/gems/ruby-2.2.2@global/gems/sass-3.4.12/lib/sass/stack.rb:98:in `with_mixin'
 /Users/rth/.rvm/gems/ruby-2.2.2@global/gems/sass-3.4.12/lib/sass/tree/visitors/perform.rb:346:in `visit_mixin'
-/Users/rth/.rvm/gems/ruby-2.2.2@global/gems/sass-3.4.12/lib/sass/tree/visitors/base.rb:36:in `visit'
-/Users/rth/.rvm/gems/ruby-2.2.2@global/gems/sass-3.4.12/lib/sass/tree/visitors/perform.rb:158:in `block in visit'
-/Users/rth/.rvm/gems/ruby-2.2.2@global/gems/sass-3.4.12/lib/sass/stack.rb:79:in `block in with_base'
-/Users/rth/.rvm/gems/ruby-2.2.2@global/gems/sass-3.4.12/lib/sass/stack.rb:115:in `with_frame'
-/Users/rth/.rvm/gems/ruby-2.2.2@global/gems/sass-3.4.12/lib/sass/stack.rb:79:in `with_base'
-/Users/rth/.rvm/gems/ruby-2.2.2@global/gems/sass-3.4.12/lib/sass/tree/visitors/perform.rb:158:in `visit'
-/Users/rth/.rvm/gems/ruby-2.2.2@global/gems/sass-3.4.12/lib/sass/tree/visitors/perform.rb:430:in `block (2 levels) in visit_rule'
-/Users/rth/.rvm/gems/ruby-2.2.2@global/gems/sass-3.4.12/lib/sass/tree/visitors/perform.rb:430:in `map'
-/Users/rth/.rvm/gems/ruby-2.2.2@global/gems/sass-3.4.12/lib/sass/tree/visitors/perform.rb:430:in `block in visit_rule'
-/Users/rth/.rvm/gems/ruby-2.2.2@global/gems/sass-3.4.12/lib/sass/tree/visitors/perform.rb:179:in `with_environment'
-/Users/rth/.rvm/gems/ruby-2.2.2@global/gems/sass-3.4.12/lib/sass/tree/visitors/perform.rb:428:in `visit_rule'
 /Users/rth/.rvm/gems/ruby-2.2.2@global/gems/sass-3.4.12/lib/sass/tree/visitors/base.rb:36:in `visit'
 /Users/rth/.rvm/gems/ruby-2.2.2@global/gems/sass-3.4.12/lib/sass/tree/visitors/perform.rb:158:in `block in visit'
 /Users/rth/.rvm/gems/ruby-2.2.2@global/gems/sass-3.4.12/lib/sass/stack.rb:79:in `block in with_base'
@@ -67,13 +54,11 @@ Backtrace:
 /Users/rth/.rvm/gems/ruby-2.2.2@global/gems/sass-3.4.12/lib/sass/stack.rb:115:in `with_frame'
 /Users/rth/.rvm/gems/ruby-2.2.2@global/gems/sass-3.4.12/lib/sass/stack.rb:79:in `with_base'
 /Users/rth/.rvm/gems/ruby-2.2.2@global/gems/sass-3.4.12/lib/sass/tree/visitors/perform.rb:158:in `visit'
-/Users/rth/.rvm/gems/ruby-2.2.2@global/gems/sass-3.4.12/lib/sass/tree/visitors/perform.rb:325:in `block (2 levels) in visit_import'
-/Users/rth/.rvm/gems/ruby-2.2.2@global/gems/sass-3.4.12/lib/sass/tree/visitors/perform.rb:325:in `map'
-/Users/rth/.rvm/gems/ruby-2.2.2@global/gems/sass-3.4.12/lib/sass/tree/visitors/perform.rb:325:in `block in visit_import'
-/Users/rth/.rvm/gems/ruby-2.2.2@global/gems/sass-3.4.12/lib/sass/stack.rb:88:in `block in with_import'
-/Users/rth/.rvm/gems/ruby-2.2.2@global/gems/sass-3.4.12/lib/sass/stack.rb:115:in `with_frame'
-/Users/rth/.rvm/gems/ruby-2.2.2@global/gems/sass-3.4.12/lib/sass/stack.rb:88:in `with_import'
-/Users/rth/.rvm/gems/ruby-2.2.2@global/gems/sass-3.4.12/lib/sass/tree/visitors/perform.rb:322:in `visit_import'
+/Users/rth/.rvm/gems/ruby-2.2.2@global/gems/sass-3.4.12/lib/sass/tree/visitors/perform.rb:430:in `block (2 levels) in visit_rule'
+/Users/rth/.rvm/gems/ruby-2.2.2@global/gems/sass-3.4.12/lib/sass/tree/visitors/perform.rb:430:in `map'
+/Users/rth/.rvm/gems/ruby-2.2.2@global/gems/sass-3.4.12/lib/sass/tree/visitors/perform.rb:430:in `block in visit_rule'
+/Users/rth/.rvm/gems/ruby-2.2.2@global/gems/sass-3.4.12/lib/sass/tree/visitors/perform.rb:179:in `with_environment'
+/Users/rth/.rvm/gems/ruby-2.2.2@global/gems/sass-3.4.12/lib/sass/tree/visitors/perform.rb:428:in `visit_rule'
 /Users/rth/.rvm/gems/ruby-2.2.2@global/gems/sass-3.4.12/lib/sass/tree/visitors/base.rb:36:in `visit'
 /Users/rth/.rvm/gems/ruby-2.2.2@global/gems/sass-3.4.12/lib/sass/tree/visitors/perform.rb:158:in `block in visit'
 /Users/rth/.rvm/gems/ruby-2.2.2@global/gems/sass-3.4.12/lib/sass/stack.rb:79:in `block in with_base'
@@ -115,4 +100,4 @@ Backtrace:
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Error: Undefined mixin 'span-columns'.\A         on line 17 of /Users/rth/Code/Ruby/apps/cactus-jekyll-theme/scss/site/_blog.scss, in `span-columns'\A         from line 17 of /Users/rth/Code/Ruby/apps/cactus-jekyll-theme/scss/site/_blog.scss\A         from line 22 of /Users/rth/Code/Ruby/apps/cactus-jekyll-theme/scss/screen.scss\A \A 12: // Components\A 13: @import \"components/table\";\A 14: @import \"components/bordered-list\";\A 15: @import \"components/nav\";\A 16: @import \"components/pygments\"; // code highlighting styles\A 17: \A 18: // Regular imports\A 19: @import \"site/fonts\";\A 20: @import \"site/grid\";\A 21: @import \"site/image_alignment\";\A 22: @import \"site/blog\";"; }
+  content: "Error: Undefined mixin 'span-columns'.\A         on line 240 of /Users/rth/Code/Ruby/apps/cactus-jekyll-theme/scss/screen.scss, in `span-columns'\A         from line 240 of /Users/rth/Code/Ruby/apps/cactus-jekyll-theme/scss/screen.scss\A \A 235:     .copy {\A 236:       background: #000;\A 237:       background: rgba(0,0,0,0.5);\A 238:       padding: 20px;\A 239:       margin-top: 40px;\A 240:       @include span-columns(4,8);\A 241:     }\A 242:   }\A 243: }\A 244: \A 245: #footer {"; }
