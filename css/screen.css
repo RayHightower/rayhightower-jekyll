@@ -1,22 +1,14 @@
 /*
-Error: Undefined variable: "$legacy-support-for-ie6".
-        on line 278 of /Users/rth/Code/Ruby/apps/cactus-jekyll-theme/scss/site/_normalize.scss
+Error: Undefined variable: "$legacy-support-for-ie7".
+        on line 374 of /Users/rth/Code/Ruby/apps/cactus-jekyll-theme/scss/site/_normalize.scss
         from line 10 of /Users/rth/Code/Ruby/apps/cactus-jekyll-theme/scss/screen.scss
 
-273:     .col {
-274:       @include span-columns(3);
-275:     }
-276:     .col:last-child {
-277:       @include omega;
-278:     }
-279:   }
-280: }
-281: 
-282: // page with subnav
-283: 
+369:   width: 100%;
+370:   height: 100%;
+371: }
 
 Backtrace:
-/Users/rth/Code/Ruby/apps/cactus-jekyll-theme/scss/site/_normalize.scss:278
+/Users/rth/Code/Ruby/apps/cactus-jekyll-theme/scss/site/_normalize.scss:374
 /Users/rth/Code/Ruby/apps/cactus-jekyll-theme/scss/screen.scss:10
 /Users/rth/.rvm/gems/ruby-2.2.2@global/gems/sass-3.4.12/lib/sass/script/tree/variable.rb:49:in `_perform'
 /Users/rth/.rvm/gems/ruby-2.2.2@global/gems/sass-3.4.12/lib/sass/script/tree/node.rb:50:in `perform'
@@ -86,4 +78,4 @@ Backtrace:
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Error: Undefined variable: \"$legacy-support-for-ie6\".\A         on line 278 of /Users/rth/Code/Ruby/apps/cactus-jekyll-theme/scss/site/_normalize.scss\A         from line 10 of /Users/rth/Code/Ruby/apps/cactus-jekyll-theme/scss/screen.scss\A \A 273:     .col {\A 274:       @include span-columns(3);\A 275:     }\A 276:     .col:last-child {\A 277:       @include omega;\A 278:     }\A 279:   }\A 280: }\A 281: \A 282: // page with subnav\A 283: "; }
+  content: "Error: Undefined variable: \"$legacy-support-for-ie7\".\A         on line 374 of /Users/rth/Code/Ruby/apps/cactus-jekyll-theme/scss/site/_normalize.scss\A         from line 10 of /Users/rth/Code/Ruby/apps/cactus-jekyll-theme/scss/screen.scss\A \A 369:   width: 100%;\A 370:   height: 100%;\A 371: }"; }

@@ -349,10 +349,9 @@ dd {
     margin: 0 0 0 $indent-amount;
 }
 
-@if $legacy-support-for-ie7 {
+/*@if $legacy-support-for-ie7 {
     /**
      * Correct list images handled incorrectly in IE 7.
-     */
 
     nav ul,
     nav ol {
@@ -360,6 +359,7 @@ dd {
         list-style-image: none;
     }
 }
+     */
 
 /* ==========================================================================
    Embedded content
@@ -371,10 +371,10 @@ dd {
 
 img {
     border: 0;
-    @if $legacy-support-for-ie7 {
-        /* Improve image quality when scaled in IE 7. */
+/*    @if $legacy-support-for-ie7 {
+        /* Improve image quality when scaled in IE 7.
         -ms-interpolation-mode: bicubic;
-    }
+    } */
 }
 
 /**
