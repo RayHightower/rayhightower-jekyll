@@ -1,5 +1,5 @@
 ---
-layout: 
+layout: null
 ---
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
@@ -7,7 +7,7 @@ layout:
  <link href="http://mydomain.com/atom.xml" rel="self"/>
  <link href="http://mydomain.com/"/>
  <updated>{{ site.time | date_to_xmlschema }}</updated>
- <id>http://mydomain.com/</id>
+ <id>http://rayhightower.com/</id>
  <author>
    <name>Firstname Lastname</name>
    <email>yourmail@domain.com</email>
