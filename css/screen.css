@@ -1,18 +1,30 @@
 /*
-Error: Undefined variable: "$legacy-support-for-ie7".
-        on line 374 of /Users/rth/Code/Ruby/apps/cactus-jekyll-theme/scss/site/_normalize.scss
-        from line 10 of /Users/rth/Code/Ruby/apps/cactus-jekyll-theme/scss/screen.scss
+Error: Undefined mixin 'span-columns'.
+        on line 17 of /Users/rth/Code/Ruby/apps/cactus-jekyll-theme/scss/site/_blog.scss, in `span-columns'
+        from line 17 of /Users/rth/Code/Ruby/apps/cactus-jekyll-theme/scss/site/_blog.scss
+        from line 22 of /Users/rth/Code/Ruby/apps/cactus-jekyll-theme/scss/screen.scss
 
-369:   width: 100%;
-370:   height: 100%;
-371: }
+12: // Components
+13: @import "components/table";
+14: @import "components/bordered-list";
+15: @import "components/nav";
+16: @import "components/pygments"; // code highlighting styles
+17: 
+18: // Regular imports
+19: @import "site/fonts";
+20: @import "site/grid";
+21: @import "site/image_alignment";
+22: @import "site/blog";
 
 Backtrace:
-/Users/rth/Code/Ruby/apps/cactus-jekyll-theme/scss/site/_normalize.scss:374
-/Users/rth/Code/Ruby/apps/cactus-jekyll-theme/scss/screen.scss:10
-/Users/rth/.rvm/gems/ruby-2.2.2@global/gems/sass-3.4.12/lib/sass/script/tree/variable.rb:49:in `_perform'
-/Users/rth/.rvm/gems/ruby-2.2.2@global/gems/sass-3.4.12/lib/sass/script/tree/node.rb:50:in `perform'
-/Users/rth/.rvm/gems/ruby-2.2.2@global/gems/sass-3.4.12/lib/sass/tree/visitors/perform.rb:297:in `visit_if'
+/Users/rth/Code/Ruby/apps/cactus-jekyll-theme/scss/site/_blog.scss:17:in `span-columns'
+/Users/rth/Code/Ruby/apps/cactus-jekyll-theme/scss/site/_blog.scss:17
+/Users/rth/Code/Ruby/apps/cactus-jekyll-theme/scss/screen.scss:22
+/Users/rth/.rvm/gems/ruby-2.2.2@global/gems/sass-3.4.12/lib/sass/tree/visitors/perform.rb:348:in `block in visit_mixin'
+/Users/rth/.rvm/gems/ruby-2.2.2@global/gems/sass-3.4.12/lib/sass/stack.rb:98:in `block in with_mixin'
+/Users/rth/.rvm/gems/ruby-2.2.2@global/gems/sass-3.4.12/lib/sass/stack.rb:115:in `with_frame'
+/Users/rth/.rvm/gems/ruby-2.2.2@global/gems/sass-3.4.12/lib/sass/stack.rb:98:in `with_mixin'
+/Users/rth/.rvm/gems/ruby-2.2.2@global/gems/sass-3.4.12/lib/sass/tree/visitors/perform.rb:346:in `visit_mixin'
 /Users/rth/.rvm/gems/ruby-2.2.2@global/gems/sass-3.4.12/lib/sass/tree/visitors/base.rb:36:in `visit'
 /Users/rth/.rvm/gems/ruby-2.2.2@global/gems/sass-3.4.12/lib/sass/tree/visitors/perform.rb:158:in `block in visit'
 /Users/rth/.rvm/gems/ruby-2.2.2@global/gems/sass-3.4.12/lib/sass/stack.rb:79:in `block in with_base'
@@ -24,6 +36,31 @@ Backtrace:
 /Users/rth/.rvm/gems/ruby-2.2.2@global/gems/sass-3.4.12/lib/sass/tree/visitors/perform.rb:430:in `block in visit_rule'
 /Users/rth/.rvm/gems/ruby-2.2.2@global/gems/sass-3.4.12/lib/sass/tree/visitors/perform.rb:179:in `with_environment'
 /Users/rth/.rvm/gems/ruby-2.2.2@global/gems/sass-3.4.12/lib/sass/tree/visitors/perform.rb:428:in `visit_rule'
+/Users/rth/.rvm/gems/ruby-2.2.2@global/gems/sass-3.4.12/lib/sass/tree/visitors/base.rb:36:in `visit'
+/Users/rth/.rvm/gems/ruby-2.2.2@global/gems/sass-3.4.12/lib/sass/tree/visitors/perform.rb:158:in `block in visit'
+/Users/rth/.rvm/gems/ruby-2.2.2@global/gems/sass-3.4.12/lib/sass/stack.rb:79:in `block in with_base'
+/Users/rth/.rvm/gems/ruby-2.2.2@global/gems/sass-3.4.12/lib/sass/stack.rb:115:in `with_frame'
+/Users/rth/.rvm/gems/ruby-2.2.2@global/gems/sass-3.4.12/lib/sass/stack.rb:79:in `with_base'
+/Users/rth/.rvm/gems/ruby-2.2.2@global/gems/sass-3.4.12/lib/sass/tree/visitors/perform.rb:158:in `visit'
+/Users/rth/.rvm/gems/ruby-2.2.2@global/gems/sass-3.4.12/lib/sass/tree/visitors/perform.rb:430:in `block (2 levels) in visit_rule'
+/Users/rth/.rvm/gems/ruby-2.2.2@global/gems/sass-3.4.12/lib/sass/tree/visitors/perform.rb:430:in `map'
+/Users/rth/.rvm/gems/ruby-2.2.2@global/gems/sass-3.4.12/lib/sass/tree/visitors/perform.rb:430:in `block in visit_rule'
+/Users/rth/.rvm/gems/ruby-2.2.2@global/gems/sass-3.4.12/lib/sass/tree/visitors/perform.rb:179:in `with_environment'
+/Users/rth/.rvm/gems/ruby-2.2.2@global/gems/sass-3.4.12/lib/sass/tree/visitors/perform.rb:428:in `visit_rule'
+/Users/rth/.rvm/gems/ruby-2.2.2@global/gems/sass-3.4.12/lib/sass/tree/visitors/base.rb:36:in `visit'
+/Users/rth/.rvm/gems/ruby-2.2.2@global/gems/sass-3.4.12/lib/sass/tree/visitors/perform.rb:158:in `block in visit'
+/Users/rth/.rvm/gems/ruby-2.2.2@global/gems/sass-3.4.12/lib/sass/stack.rb:79:in `block in with_base'
+/Users/rth/.rvm/gems/ruby-2.2.2@global/gems/sass-3.4.12/lib/sass/stack.rb:115:in `with_frame'
+/Users/rth/.rvm/gems/ruby-2.2.2@global/gems/sass-3.4.12/lib/sass/stack.rb:79:in `with_base'
+/Users/rth/.rvm/gems/ruby-2.2.2@global/gems/sass-3.4.12/lib/sass/tree/visitors/perform.rb:158:in `visit'
+/Users/rth/.rvm/gems/ruby-2.2.2@global/gems/sass-3.4.12/lib/sass/tree/visitors/base.rb:52:in `block in visit_children'
+/Users/rth/.rvm/gems/ruby-2.2.2@global/gems/sass-3.4.12/lib/sass/tree/visitors/base.rb:52:in `map'
+/Users/rth/.rvm/gems/ruby-2.2.2@global/gems/sass-3.4.12/lib/sass/tree/visitors/base.rb:52:in `visit_children'
+/Users/rth/.rvm/gems/ruby-2.2.2@global/gems/sass-3.4.12/lib/sass/tree/visitors/perform.rb:167:in `block in visit_children'
+/Users/rth/.rvm/gems/ruby-2.2.2@global/gems/sass-3.4.12/lib/sass/tree/visitors/perform.rb:179:in `with_environment'
+/Users/rth/.rvm/gems/ruby-2.2.2@global/gems/sass-3.4.12/lib/sass/tree/visitors/perform.rb:166:in `visit_children'
+/Users/rth/.rvm/gems/ruby-2.2.2@global/gems/sass-3.4.12/lib/sass/tree/visitors/base.rb:36:in `block in visit'
+/Users/rth/.rvm/gems/ruby-2.2.2@global/gems/sass-3.4.12/lib/sass/tree/visitors/perform.rb:512:in `visit_media'
 /Users/rth/.rvm/gems/ruby-2.2.2@global/gems/sass-3.4.12/lib/sass/tree/visitors/base.rb:36:in `visit'
 /Users/rth/.rvm/gems/ruby-2.2.2@global/gems/sass-3.4.12/lib/sass/tree/visitors/perform.rb:158:in `block in visit'
 /Users/rth/.rvm/gems/ruby-2.2.2@global/gems/sass-3.4.12/lib/sass/stack.rb:79:in `block in with_base'
@@ -78,4 +115,4 @@ Backtrace:
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Error: Undefined variable: \"$legacy-support-for-ie7\".\A         on line 374 of /Users/rth/Code/Ruby/apps/cactus-jekyll-theme/scss/site/_normalize.scss\A         from line 10 of /Users/rth/Code/Ruby/apps/cactus-jekyll-theme/scss/screen.scss\A \A 369:   width: 100%;\A 370:   height: 100%;\A 371: }"; }
+  content: "Error: Undefined mixin 'span-columns'.\A         on line 17 of /Users/rth/Code/Ruby/apps/cactus-jekyll-theme/scss/site/_blog.scss, in `span-columns'\A         from line 17 of /Users/rth/Code/Ruby/apps/cactus-jekyll-theme/scss/site/_blog.scss\A         from line 22 of /Users/rth/Code/Ruby/apps/cactus-jekyll-theme/scss/screen.scss\A \A 12: // Components\A 13: @import \"components/table\";\A 14: @import \"components/bordered-list\";\A 15: @import \"components/nav\";\A 16: @import \"components/pygments\"; // code highlighting styles\A 17: \A 18: // Regular imports\A 19: @import \"site/fonts\";\A 20: @import \"site/grid\";\A 21: @import \"site/image_alignment\";\A 22: @import \"site/blog\";"; }
