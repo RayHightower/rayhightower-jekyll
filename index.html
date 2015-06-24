@@ -31,22 +31,12 @@
         </ul>
       </div>
       <div class="col">
-        <h3>Initial setup</h3>
-        <p>Download the files from the Github repository and put them in a folder. Make sure Jekyll, Susy, Compass and Sass are installed through <a href="http://rubygems.org/">RubyGems</a>:</p>
-        {% highlight bash %}
-sudo gem install jekyll
-sudo gem install susy
-sudo gem install sass
-sudo gem install compass{% endhighlight %}
-
-        <h3>How to use</h3>
-        <p>Run two terminal windows, one to compile the site and one to compile the CSS. If you're just blogging you only need the jekyll command:</p>
-        {% highlight bash %}
-jekyll serve -w
-compass watch{% endhighlight %}
-        <h3>Theme license</h3>
-        <p>The Cactus Jekyll theme is licensed under the <a href="http://opensource.org/licenses/MIT">MIT</a> license i.e. do whatever you want with it. Keeping the backlink and spreading the word would be nice.</p>
-      </div>
+        {% include about.html %}
+        {% include observations.html %}
+        {% include speaking.html %}
+        {% include category_list.html %}
+        {% include featured_articles.html %}
+        {% include vim.html %}
     </div>
   </div>
 </div>

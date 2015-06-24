@@ -65,12 +65,12 @@
 }
 
 @mixin header-font {
-  @import url(http://fonts.googleapis.com/css?family=Arvo:700);
-  font-family: "Arvo", "Helvetica Neue CE 600 Condensed", "Helvetica Neue LT Condensed", "Helvetica Neue 600 Condensed", "HelveticaNeue-BoldCondensed", "Helvetica Neue BoldCondensed", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "Arvo", "HelveticaNeue-CondensedBold", "Helvetica Neue CE 600 Condensed", "Helvetica Neue LT Condensed", "Helvetica Neue 600 Condensed", "HelveticaNeue-BoldCondensed", "Helvetica Neue BoldCondensed", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-weight: 700;
   font-stretch: condensed;
   line-height: 1;
   margin: 0;
+  src: url("http://fonts.googleapis.com/css?family=Arvo");
 }
 
 @mixin calc($property, $expression) { 
