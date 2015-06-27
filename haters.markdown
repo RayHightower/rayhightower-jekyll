@@ -1,8 +1,8 @@
 ---
-layout: page
+layout: base
 title: "Haters Gonna Hate"
 comments: false
 sharing: false
 footer: false
 ---
-{% img /images/vader_haters.gif %}
+<center>{% img /images/vader_haters.gif %}</center>
