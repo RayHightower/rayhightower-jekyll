@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: page
 title: "3D Printing at BLUE1647"
 date: 2015-06-23 17:11:35 -0500
 comments: true
