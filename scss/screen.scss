@@ -141,11 +141,11 @@ pre {
     color: #FFF;
     padding: 10px 15px;
     display: inline-block;
-    background: lighten($dark-bg, 50%);
+    background: lighten($dark-bg, 10%);
     border-radius: 3px;
     &:hover,
     &:focus {
-      background: darken($dark-bg, 20%);
+      background: darken($dark-bg, 30%);
       @include box-shadow(0 0 0 2px #FFF);
     }
   }
