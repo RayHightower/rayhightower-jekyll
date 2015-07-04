@@ -145,7 +145,7 @@ pre {
     border-radius: 3px;
     &:hover,
     &:focus {
-      background: darken($dark-bg, 30%);
+      background: darken($dark-bg, 10%);
       @include box-shadow(0 0 0 2px #FFF);
     }
   }
