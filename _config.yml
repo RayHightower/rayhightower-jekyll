@@ -4,6 +4,8 @@ extendedtitle: Chicago Ruby on Rails - RubyMotion - iOS - IoT
 subtitle: Thoughts about Ruby, Rails, iOS, IoT, software development, and business growth.
 author: Raymond T. Hightower - Chicago Ruby on Rails & iOS Developer
 description: Chicago Ruby on Rails and iOS Developer
+
+baseurl: http://google.com/
   
 # Social Media
 github_user: rayhightower
