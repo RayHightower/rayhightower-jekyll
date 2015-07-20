@@ -13,3 +13,6 @@ twitter_user: rayhightower
 disqus_short_name: rayhightower
 google_analytics_tracking_id: UA-330946-28
 linkedin_user: rayhightower
+
+markdown: redcarpet
+
