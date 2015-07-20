@@ -11,6 +11,7 @@ Parallella is a single-board supercomputer smaller than a deck of cards. While t
 Everything in this post is based on the [official quick start guide created by the Parallella team](http://www.parallella.org/quick-start/). These instructions are tailored for a Mac running OS X Mavericks (10.9.3) and a Parallella-16 equipped with the Zynq 7010 chip. I ran into some _gotchas_ during my first Parallella experience. The snags (and solutions) are documented here.
 
 {% imgcap right /images/parallella.jpg Parallella. Tiny and powerful. %}
+
 ###Tools Required
 You will need the following items in order to burn an SD card for your
 Parallella:
@@ -30,6 +31,7 @@ Since you're experimenting with Parallella, we can assume that you are an advanc
 
 ###Comparison with Raspberry Pi or Beaglebone Black
 {% imgcap right /images/parallella_fan.jpg Bits get hot. Use a fan. %}
+
 How does the Parallella compare with other single-board computers, like the [Raspberry Pi](/blog/2012/12/03/ruby-on-raspberry-pi/) or [Beaglebone Black](/blog/2014/01/02/beaglebone-black-ubuntu-part-1/)? The first difference noticed at boot-time: Parallella runs hot! So hot, in fact, that the unit comes with a heat sink and the recommendation to add a fan. I’ve never needed a fan with a Pi or a ‘Bone.
 
 Of course, the Parallella runs hotter because it has more processing power packed tightly together in limited space. Since Parallella is designed to run tasks in parallel, we can expect certain programs to perform faster than they would on the Pi or 'Bone. Future posts will explore Parallella's performance using languages designed for concurrency, languages like [Go](/blog/2013/06/22/preparing-for-parallella-64-cores-installing-go-on-mac-os-x/) and [Rubinius](/blog/2014/02/06/installing-rubinius-using-rvm/). Now, let’s get started with Parallella.
@@ -231,6 +233,7 @@ drwxrwxrwx  1 rth   staff      512 Jul  6 12:11 .fseventsd
 ``` 
 
 {% imgcap right /images/eject_boot.png Eject the SD card. %}
+
 ###Eject the SD Card, Insert in Parallella
 Now you're ready to eject the SD card from the Mac and insert it in the Parallella. Plug in the HDMI cable, keyboard, mouse, and Ethernet connection. Power up the Parallella, and welcome to the next _gotcha_.
 
