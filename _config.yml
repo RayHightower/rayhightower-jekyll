@@ -14,8 +14,8 @@ disqus_short_name: rayhightower
 google_analytics_tracking_id: UA-330946-28
 linkedin_user: rayhightower
 
-# markdown: redcarpet
-markdown: rdiscount
+markdown: redcarpet
+# markdown: rdiscount
 rdiscount:
   extensions:
     - autolink
