@@ -16,7 +16,8 @@ linkedin_user: rayhightower
 
 markdown: redcarpet
 # markdown: rdiscount
-rdiscount:
+# rdiscount:
+redcarpet:
   extensions:
     - autolink
     - footnotes
