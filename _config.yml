@@ -16,4 +16,11 @@ linkedin_user: rayhightower
 
 # markdown: redcarpet
 markdown: rdiscount
+rdiscount:
+  extensions:
+    - autolink
+    - footnotes
+    - smart
+highlighter: pygments # default python pygments have been replaced by pygments.rb
+  
 
