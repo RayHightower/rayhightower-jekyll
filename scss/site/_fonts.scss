@@ -1,3 +1,6 @@
+@import url(http://fonts.googleapis.com/css?family=Arvo:700);
+// Argo (above) added by RTH on 7/25/2015
+//
 // Fonts
 @font-face {
     font-family: 'Source Sans Pro';
@@ -28,14 +31,6 @@
          url('../fonts/sourcesanspro-bold-webfont.woff') format('woff'),
          url('../fonts/sourcesanspro-bold-webfont.ttf') format('truetype'),
          url('../fonts/sourcesanspro-bold-webfont.svg#source_sans_probold') format('svg');
-    font-weight: bold;
-    font-style: 700;
-}
-
-// Arvo font added by RTH on 7/24/2015
-@font-face {
-    font-family: 'Arvo';
-    src: url('https://www.google.com/fonts#UsePlace:use/Collection:Arvo:700');
     font-weight: bold;
     font-style: 700;
 }
