@@ -5,7 +5,7 @@ date: 2012-03-16 17:30
 comments: true
 categories: [ Education, iOS, Objective-C ]
 ---
-{% img right /images/cocoaconf-mug.png Official Cocoaconf Mug %}
+{% picture right /images/cocoaconf-mug.png Official Cocoaconf Mug %}
 "Hey Nerd!"
 
 It was the night before [CocoaConf](http://cocoaconf.com). I had just walked into the hotel bar. A table full of wise guys (wise as in Stooges, not Sopranos) called out to someone named Nerd. 
