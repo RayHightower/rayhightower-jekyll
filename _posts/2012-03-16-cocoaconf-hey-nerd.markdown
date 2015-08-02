@@ -5,7 +5,7 @@ date: 2012-03-16 17:30
 comments: true
 categories: [ Education, iOS, Objective-C ]
 ---
-![Image alt](/images/cocoaconf-mug.png "Official Cocoaconf Mug")
+![Where will this text appear?](/images/cocoaconf-mug.png "Official Cocoaconf Mug")
 
 "Hey Nerd!"
 
