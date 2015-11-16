@@ -1,0 +1,29 @@
+---
+comments: false
+---
+
+{% include head.html %}
+<body>
+  
+  {% include header.html %}
+
+  <div id="blog">
+    <div id="blog-single">
+      <article>
+        <header>
+          <h1>{{ page.title }}</h1>
+        </header>
+        <div class="entry-content">
+          {{ content }}
+        </div>
+      </article>
+    
+    </div>
+  </div>
+  
+  
+  {% include footer.html %}
+
+</body>
+</html>
+

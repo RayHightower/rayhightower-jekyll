@@ -1,5 +1,5 @@
 ---
-layout: base
+layout: page_single
 title: "Speaking"
 footer: true
 ---
